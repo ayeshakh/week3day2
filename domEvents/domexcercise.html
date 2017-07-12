@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <style>
+
+        </style>
+    </head>
+    <body>
+        <form action="file:///Users/fahd/lighthouse/javascripting/week3day2/domexcercise.html" method="POST">
+        <textarea id="text" name="text" placeholder="What are you humming about?"></textarea>
+        <input type="submit" value="Tweet">
+        </form>
+
+      <script>
+        document.getElementById('text').addEventListener('keypress', function(event) {
+          console.log(event);
+        });
+      </script>
+</body>
+</html>
